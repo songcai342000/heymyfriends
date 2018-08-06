@@ -1,0 +1,135 @@
+﻿body, td, input, select, textarea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:8pt;
+	background-image:/images/clouds-rk8c_small.png;
+}
+#righttables
+{
+	width:720px;
+	background-color:#f0f8ff;
+	vertical-align:middle;
+	border-color:#e1e1e1;
+	padding-left:20px;
+	border-bottom-style:solid;
+	border-left-style:solid;
+	border-right-style:solid;
+	border-top-style:solid;
+	
+	border-width:1px;
+	}
+	#righttables0
+{
+	width:720px;
+	background-color:#f0f8ff;
+	vertical-align:middle;
+	border-color:#e1e1e1;
+	padding-left:0px;
+	border-bottom-style:solid;
+	border-left-style:solid;
+	border-right-style:solid;
+	border-top-style:solid;
+	
+	border-width:1px;
+	}
+	#righttablenonborder
+{
+	width:720px;
+	background-color:#f0f8ff;
+	vertical-align:middle;
+	padding-left:20px;
+	
+	}
+#lefttables
+{
+	width:190px;
+	background-color:#f0f8ff;
+	border:1px;
+	padding-left:20px;
+	padding-top:20px;
+	vertical-align:middle;
+	border-color:#e1e1e1;
+	border-bottom-style:solid;
+	border-left-style:solid;
+	border-right-style:solid;
+	border-top-style:solid;
+	}
+#menutable
+{
+	width: 100%;
+	background-color:#cc0099;
+	border-bottom-style:inset;
+	border-left-style:solid;
+	border-right-style:solid;
+	border-top-style:outset;
+	border-left-color:#cc0099;
+	border-right-color:#cc0099;
+	border-top-color:#ffddff;
+	border-bottom-color:#ffddff;
+	color:White;
+	height: 15px
+	}
+#toptable
+{
+	width: 100%;
+	height: 15px
+	}
+#minsidesorttable
+{
+	width:720px;
+	background-color:#f0f8ff;
+	padding-left:20px;
+	padding-top:20px;
+	vertical-align:middle;
+	border-color:#e1e1e1;
+	border-bottom-style:solid;
+	border-left-style:solid;
+	border-right-style:solid;
+	border-top-style:solid;
+	
+	border-width:1px;
+	}
+#flexibletable
+{
+	background-color:#f0f8ff;
+	padding-left:20px;
+	padding-top:20px;
+	vertical-align:middle;
+	border-color:#e1e1e1;
+	border-bottom-style:solid;
+	border-left-style:solid;
+	border-right-style:solid;
+	border-top-style:solid;
+	border-width:1px;
+	}
+#headtr
+{
+	background-color:#cce6ff;
+	font-weight:bold;
+	height:35px;
+	}
+#helptr
+{
+	background-color:#ffddff;
+	font-weight:bold;
+	border-left-style:solid;
+	border-right-style:solid;
+	border-left-color:White;
+	border-right-color:White;
+	height:35px;
+	width: 950px;
+	}
+#righttalbes.column
+{
+	padding-left:20px;
+	}
+#minsidesorttable.row
+{
+	height:20px;
+	}
+#repeatstyle
+{
+	width:115px;
+	padding-left:3px;
+	padding-right:5px;
+	}
+
