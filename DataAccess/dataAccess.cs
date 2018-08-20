@@ -12,8 +12,8 @@ namespace DataAccess
     public class dataAccess
     {
         #region ConnectionString
-        private static string connectionString = "Data Source=desktop-v7h8pou\\sqlexpress2017;Initial Catalog=Chinatravel;Integrated Security=True";
-        //private static string connectionString = "Data Source=mssql03.fastname.no;Database=db165057;Uid=db165057;Password=a547yryf";
+        //private static string connectionString = "Data Source=desktop-v7h8pou\\sqlexpress2017;Initial Catalog=Chinatravel;Integrated Security=True";
+        private static string connectionString = "Data Source=mssql03.fastname.no;Database=db165057;Uid=db165057;Password=a547yryf";
         #endregion
 
         #region public methods
