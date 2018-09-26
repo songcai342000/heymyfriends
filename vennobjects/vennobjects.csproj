@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A808779E-07CB-4AAA-A47D-BFCE05898523}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>vennobjects</RootNamespace>
+    <AssemblyName>vennobjects</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adminassign.cs" />
+    <Compile Include="Blog.cs" />
+    <Compile Include="Blogcollection.cs" />
+    <Compile Include="Blogpictureposition.cs" />
+    <Compile Include="Grantkey.cs" />
+    <Compile Include="Comment.cs" />
+    <Compile Include="Commentcollection.cs" />
+    <Compile Include="Visitor.cs" />
+    <Compile Include="Theuser.cs" />
+    <Compile Include="Theusercollection.cs" />
+    <Compile Include="Searchstory.cs" />
+    <Compile Include="History.cs" />
+    <Compile Include="Historycollection.cs" />
+    <Compile Include="Epost.cs" />
+    <Compile Include="Epostcollection.cs" />
+    <Compile Include="Exceptn.cs" />
+    <Compile Include="Exceptncollection.cs" />
+    <Compile Include="Favorite.cs" />
+    <Compile Include="Favoritecollection.cs" />
+    <Compile Include="Idbase.cs" />
+    <Compile Include="IdName.cs" />
+    <Compile Include="Idrepositorybase.cs" />
+    <Compile Include="IId.cs" />
+    <Compile Include="IIdrepository.cs" />
+    <Compile Include="KeyCreator.cs" />
+    <Compile Include="Picture.cs" />
+    <Compile Include="Picturecollection.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Searchdictionary.cs" />
+    <Compile Include="Searchgeneral.cs" />
+    <Compile Include="Userstruct.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj">
+      <Project>{5023E52D-3A57-4105-94D0-75B08AA6035B}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
